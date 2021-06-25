@@ -7,10 +7,6 @@
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" method="post" id="registro_cliente" name="registro_cliente">
-                    <div class="alert alert-warning alert-dismissible fade" role="alert">
-                        
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                    </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">

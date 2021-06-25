@@ -16,7 +16,7 @@ if($nombre_completo == "Vacio" || $country == "Vacio" || $celular == "Vacio" || 
     $registro->bindParam(':celular', $celular);
     $registro->bindParam(':email', $email);
     if($registro->execute()){
-        echo json_encode(array("success" => "true", "message" => "Guardado correctamente."));
+        echo json_encode(array("success" => "true", "message" => "Enviado correctamente."));
     }else{
         echo json_encode(array("success" => "false", "error" => "Error interno del servidor."));
     }
