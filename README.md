@@ -3,7 +3,7 @@
 **Configuración**
 
 - Crear base de datos MYSQL
-- Importar el archivo biblioteca.sql
+- Importar el archivo contactos.sql
 - Configurar base de datos en el archivo de configuración: /config/database.php
 
 **Tiempo de desarrollo estimado**
